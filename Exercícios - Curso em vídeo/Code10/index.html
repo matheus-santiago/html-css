@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Mídias dinamicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplemente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Images/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Images/M.png" type="image/png">
+        <img src="Images/G.png" alt="Imagem Flexivel">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos reproduzir um áudio</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="Mídias/Livin.mp3" type="audio/mpeg">
+        <!--Coloquei só um tipo de audio, mas posso adicionar mais, colocando outros sources (para arquivos como WAV e OGG)-->
+    </audio>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes em CSS</title>
+    <style>
+            div{
+                background-color: rgb(91, 91, 91);
+                text-align: center;
+                height: 200px;
+                width: 200px;
+                display: inline-block
+            }
+            div:hover{
+                background-color: rgb(238, 255, 0);
+                
+                               
+            }
+
+            #d1 > p{
+                display: none;
+            }
+
+            #d1:hover > p{
+                display: block;
+                color: white;
+                background-color: green;
+                border-radius: 5px;
+                width: 150px;
+                text-align: center;
+            }
+
+    </style>
+</head>
+<body>
+   <div 
+   id="d1">01
+   <p>Olá me achou</p>
+   </div>
+   <div id="d2">02</div>
+</body>
+</html>
